@@ -8,4 +8,6 @@ single({
 	test,
 	algorithms: [mockedSingle],
 	data,
+	skipEmptyString: true,
+	skipEmptyPattern: true,
 });

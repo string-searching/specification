@@ -19,7 +19,8 @@ export default function* mock(string, patterns) {
 		while (true) {
 			const i = s.indexOf(p, fromIndex);
 			if (i === -1) break;
-			yield new Hit(i, pattern, pattern.i);
+			yield new Hit(string.i + i, pattern, pattern.i);
+			if (fromIndex >= s.length) break;
 			fromIndex = i + 1;
 		}
 	}

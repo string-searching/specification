@@ -1,7 +1,15 @@
-const single = ({test, algorithms, data}) => {
+const single = ({
+	test,
+	algorithms,
+	data,
+	skipEmptyString,
+	skipEmptyPattern,
+}) => {
 	for (const algorithm of algorithms) {
 		for (const {string, patterns} of data) {
+			if (string === '' && skipEmptyString) continue;
 			for (const {pattern, hits} of patterns) {
+				if (pattern === '' && skipEmptyPattern) continue;
 				test(macro, algorithm, string, pattern, hits);
 			}
 		}
