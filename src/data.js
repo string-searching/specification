@@ -141,6 +141,40 @@ const data = [
 			},
 		],
 	},
+	{
+		string: 'ABC ABCDAB ABCDABCDABDE',
+		patterns: [
+			{
+				pattern: 'ABCDABD',
+				hits: [15],
+			},
+		],
+	},
+	{
+		string: 'ABCABCDABABCDABCDABDE',
+		patterns: [
+			{
+				pattern: 'ABCDABD',
+				hits: [13],
+			},
+			{
+				pattern: 'ABCDAB',
+				hits: [3, 9, 13],
+			},
+			{
+				pattern: 'ABCABC',
+				hits: [0],
+			},
+			{
+				pattern: 'ABC',
+				hits: [0, 3, 9, 13],
+			},
+			{
+				pattern: 'ABD',
+				hits: [17],
+			},
+		],
+	},
 ];
 
 export default data;
