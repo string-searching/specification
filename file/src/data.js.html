@@ -181,6 +181,40 @@
 			},
 		],
 	},
+	{
+		string: &apos;ABC ABCDAB ABCDABCDABDE&apos;,
+		patterns: [
+			{
+				pattern: &apos;ABCDABD&apos;,
+				hits: [15],
+			},
+		],
+	},
+	{
+		string: &apos;ABCABCDABABCDABCDABDE&apos;,
+		patterns: [
+			{
+				pattern: &apos;ABCDABD&apos;,
+				hits: [13],
+			},
+			{
+				pattern: &apos;ABCDAB&apos;,
+				hits: [3, 9, 13],
+			},
+			{
+				pattern: &apos;ABCABC&apos;,
+				hits: [0],
+			},
+			{
+				pattern: &apos;ABC&apos;,
+				hits: [0, 3, 9, 13],
+			},
+			{
+				pattern: &apos;ABD&apos;,
+				hits: [17],
+			},
+		],
+	},
 ];
 
 export default data;
