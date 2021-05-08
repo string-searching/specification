@@ -8937,7 +8937,7 @@ stream-http@^2.7.2:
     to-arraybuffer "^1.0.0"
     xtend "^4.0.0"
 
-string-algorithms@^1.0.31:
+string-algorithms@1.0.31:
   version "1.0.31"
   resolved "https://registry.yarnpkg.com/string-algorithms/-/string-algorithms-1.0.31.tgz#9021fcbadb40c1781dd250fbc7ef884feda80215"
   integrity sha512-v+gdi7yfXsSGj2RU64AMR8LJyBnwpDSuJLsQxezu9ZgdYZF+g5vEGyuCeN47OoAObrEvt8VFKmj3NYCzXRBbnw==
