@@ -20,6 +20,22 @@ const data = [
 				hits: [0, 1, 2, 3, 4],
 			},
 			{
+				pattern: 'a',
+				hits: [0],
+			},
+			{
+				pattern: 'b',
+				hits: [1],
+			},
+			{
+				pattern: 'c',
+				hits: [2],
+			},
+			{
+				pattern: 'd',
+				hits: [3],
+			},
+			{
 				pattern: 'abcde',
 				hits: [],
 			},
@@ -28,8 +44,28 @@ const data = [
 				hits: [0],
 			},
 			{
+				pattern: 'ab',
+				hits: [0],
+			},
+			{
 				pattern: 'bc',
 				hits: [1],
+			},
+			{
+				pattern: 'cd',
+				hits: [2],
+			},
+			{
+				pattern: 'abc',
+				hits: [0],
+			},
+			{
+				pattern: 'bcd',
+				hits: [1],
+			},
+			{
+				pattern: 'xyz',
+				hits: [],
 			},
 		],
 	},
@@ -85,6 +121,23 @@ const data = [
 			{
 				pattern: 'aa',
 				hits: [0, 1, 2, 3],
+			},
+		],
+	},
+	{
+		string: 'xyyzxxyxzzzxyxyxxyzxyzxzxyxyzz',
+		patterns: [
+			{
+				pattern: 'xyz',
+				hits: [16, 19, 26],
+			},
+			{
+				pattern: 'zz',
+				hits: [8, 9, 28],
+			},
+			{
+				pattern: 'xyx',
+				hits: [5, 11, 13, 24],
 			},
 		],
 	},
