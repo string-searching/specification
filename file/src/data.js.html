@@ -60,6 +60,22 @@
 				hits: [0, 1, 2, 3, 4],
 			},
 			{
+				pattern: &apos;a&apos;,
+				hits: [0],
+			},
+			{
+				pattern: &apos;b&apos;,
+				hits: [1],
+			},
+			{
+				pattern: &apos;c&apos;,
+				hits: [2],
+			},
+			{
+				pattern: &apos;d&apos;,
+				hits: [3],
+			},
+			{
 				pattern: &apos;abcde&apos;,
 				hits: [],
 			},
@@ -68,8 +84,28 @@
 				hits: [0],
 			},
 			{
+				pattern: &apos;ab&apos;,
+				hits: [0],
+			},
+			{
 				pattern: &apos;bc&apos;,
 				hits: [1],
+			},
+			{
+				pattern: &apos;cd&apos;,
+				hits: [2],
+			},
+			{
+				pattern: &apos;abc&apos;,
+				hits: [0],
+			},
+			{
+				pattern: &apos;bcd&apos;,
+				hits: [1],
+			},
+			{
+				pattern: &apos;xyz&apos;,
+				hits: [],
 			},
 		],
 	},
@@ -125,6 +161,23 @@
 			{
 				pattern: &apos;aa&apos;,
 				hits: [0, 1, 2, 3],
+			},
+		],
+	},
+	{
+		string: &apos;xyyzxxyxzzzxyxyxxyzxyzxzxyxyzz&apos;,
+		patterns: [
+			{
+				pattern: &apos;xyz&apos;,
+				hits: [16, 19, 26],
+			},
+			{
+				pattern: &apos;zz&apos;,
+				hits: [8, 9, 28],
+			},
+			{
+				pattern: &apos;xyx&apos;,
+				hits: [5, 11, 13, 24],
 			},
 		],
 	},
