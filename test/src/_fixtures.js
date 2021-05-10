@@ -1,8 +1,7 @@
 import {map} from '@iterable-iterator/map';
 
-import {mock, StringSlice} from '../../src/index.js';
-
 import {search as _stringAlgorithmsKMP} from 'string-algorithms';
+import {mock, StringSlice} from '../../src/index.js';
 
 export const mockedSingle = (s, si, sj, p, pi, pj) =>
 	map(
