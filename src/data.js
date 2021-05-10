@@ -175,6 +175,15 @@ const data = [
 			},
 		],
 	},
+	{
+		string: 'babcbabcabcaabcabcabcacabc',
+		patterns: [
+			{
+				pattern: 'abcabcacab',
+				hits: [15],
+			},
+		],
+	},
 ];
 
 export default data;
