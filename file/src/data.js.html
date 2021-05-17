@@ -104,6 +104,10 @@
 				hits: [1],
 			},
 			{
+				pattern: &apos;dcba&apos;,
+				hits: [],
+			},
+			{
 				pattern: &apos;xyz&apos;,
 				hits: [],
 			},
@@ -147,11 +151,41 @@
 		],
 	},
 	{
+		string: &apos;aaaaaaaaaab&apos;,
+		patterns: [
+			{
+				pattern: &apos;aaa&apos;,
+				hits: [0, 1, 2, 3, 4, 5, 6, 7],
+			},
+		],
+	},
+	{
 		string: &apos;tototo&apos;,
 		patterns: [
 			{
 				pattern: &apos;to&apos;,
 				hits: [0, 2, 4],
+			},
+		],
+	},
+	{
+		string: &apos;aaaa&apos;,
+		patterns: [
+			{
+				pattern: &apos;a&apos;,
+				hits: [0, 1, 2, 3],
+			},
+			{
+				pattern: &apos;aa&apos;,
+				hits: [0, 1, 2],
+			},
+			{
+				pattern: &apos;aaa&apos;,
+				hits: [0, 1],
+			},
+			{
+				pattern: &apos;aaaa&apos;,
+				hits: [0],
 			},
 		],
 	},
