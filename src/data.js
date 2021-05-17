@@ -64,6 +64,10 @@ const data = [
 				hits: [1],
 			},
 			{
+				pattern: 'dcba',
+				hits: [],
+			},
+			{
 				pattern: 'xyz',
 				hits: [],
 			},
@@ -107,11 +111,41 @@ const data = [
 		],
 	},
 	{
+		string: 'aaaaaaaaaab',
+		patterns: [
+			{
+				pattern: 'aaa',
+				hits: [0, 1, 2, 3, 4, 5, 6, 7],
+			},
+		],
+	},
+	{
 		string: 'tototo',
 		patterns: [
 			{
 				pattern: 'to',
 				hits: [0, 2, 4],
+			},
+		],
+	},
+	{
+		string: 'aaaa',
+		patterns: [
+			{
+				pattern: 'a',
+				hits: [0, 1, 2, 3],
+			},
+			{
+				pattern: 'aa',
+				hits: [0, 1, 2],
+			},
+			{
+				pattern: 'aaa',
+				hits: [0, 1],
+			},
+			{
+				pattern: 'aaaa',
+				hits: [0],
 			},
 		],
 	},
