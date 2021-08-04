@@ -1,4 +1,4 @@
-import assert from 'node:assert';
+import assert from 'assert';
 import StringSlice from './StringSlice.js';
 import Hit from './Hit.js';
 
