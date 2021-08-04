@@ -6,14 +6,14 @@
 
 First, require the polyfill at the entry point of your application
 ```js
-require( 'regenerator-runtime/runtime' ) ;
+await import( 'regenerator-runtime/runtime.js' ) ;
 // or
 import 'regenerator-runtime/runtime.js' ;
 ```
 
 Then, import the library where needed
 ```js
-const specification = require( '@string-searching/specification' ) ;
+const specification = await import( '@string-searching/specification' ) ;
 // or
 import * as specification from '@string-searching/specification' ;
 ```
