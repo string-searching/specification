@@ -13,7 +13,7 @@ See [docs](https://string-searching.github.io/specification/index.html).
 
 [![License](https://img.shields.io/github/license/string-searching/specification.svg)](https://raw.githubusercontent.com/string-searching/specification/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@string-searching/specification.svg)](https://www.npmjs.org/package/@string-searching/specification)
-[![Tests](https://img.shields.io/github/workflow/status/string-searching/specification/ci?event=push&label=tests)](https://github.com/string-searching/specification/actions/workflows/ci.yml?query=branch:main)
+[![Tests](https://img.shields.io/github/actions/workflow/status/string-searching/specification/ci.yml?branch=main&event=push&label=tests)](https://github.com/string-searching/specification/actions/workflows/ci.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/librariesio/github/string-searching/specification.svg)](https://github.com/string-searching/specification/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/string-searching/specification.svg)](https://github.com/string-searching/specification/issues)
 [![Downloads](https://img.shields.io/npm/dm/@string-searching/specification.svg)](https://www.npmjs.org/package/@string-searching/specification)
