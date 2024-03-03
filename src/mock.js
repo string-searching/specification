@@ -1,6 +1,7 @@
 import assert from 'assert';
-import StringSlice from './StringSlice.js';
+
 import Hit from './Hit.js';
+import StringSlice from './StringSlice.js';
 
 /**
  * A brute-force string searching algorithm leveraging String#indexOf.
