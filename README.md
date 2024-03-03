@@ -14,8 +14,7 @@ See [docs](https://string-searching.github.io/specification/index.html).
 [![License](https://img.shields.io/github/license/string-searching/specification.svg)](https://raw.githubusercontent.com/string-searching/specification/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@string-searching/specification.svg)](https://www.npmjs.org/package/@string-searching/specification)
 [![Tests](https://img.shields.io/github/workflow/status/string-searching/specification/ci:test?event=push&label=tests)](https://github.com/string-searching/specification/actions/workflows/ci:test.yml?query=branch:main)
-[![Dependencies](https://img.shields.io/david/string-searching/specification.svg)](https://david-dm.org/string-searching/specification)
-[![Dev dependencies](https://img.shields.io/david/dev/string-searching/specification.svg)](https://david-dm.org/string-searching/specification?type=dev)
+[![Dependencies](https://img.shields.io/librariesio/github/string-searching/specification.svg)](https://github.com/string-searching/specification/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/string-searching/specification.svg)](https://github.com/string-searching/specification/issues)
 [![Downloads](https://img.shields.io/npm/dm/@string-searching/specification.svg)](https://www.npmjs.org/package/@string-searching/specification)
 
