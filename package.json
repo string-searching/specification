@@ -97,7 +97,7 @@
     "power-assert": "1.6.1",
     "regenerator-runtime": "0.14.1",
     "string-algorithms": "1.0.31",
-    "xo": "0.59.0"
+    "xo": "0.59.2"
   },
   "ava": {
     "files": [
